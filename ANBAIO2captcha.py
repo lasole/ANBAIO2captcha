@@ -23,6 +23,8 @@ captchas_sent = 0
 4 - YeezySupply
 5 - PalaceSB
 6 - Consortium
+7- DSM
+8- Supreme
 """
 
 site_names = [
@@ -33,7 +35,8 @@ site_names = [
     'YeezySupply',
     'PalaceSB',
     'Consortium',
-    'DMS'
+    'DMS',
+    'Supreme'
 ]
 
 site_urls = [
@@ -43,7 +46,9 @@ site_urls = [
     'http://www.bodega.com',
     'http://www.yeezysupply.com',
     'http://www.palaceskateboards.com',
-    'http://www.consortium.co.uk'
+    'http://www.consortium.co.uk',
+    'http://www.doverstreetmarket.com',
+    'http://www.supremenewyork.com'
 ]
 
 solver_urls = [
@@ -54,7 +59,8 @@ solver_urls = [
     'http://anb.yeezysupply.com:54785/YeezySupplyCaptcha.html',  # Unconfirmed
     'http://anb.palacesb.com:54785/PalaceSBCaptcha.html',
     'http://anb.consortium.co.uk:54785/ConsortiumCaptcha.html',
-    'http://anb.doverstreetmarket.com:54785/DSMCaptcha.html'
+    'http://anb.doverstreetmarket.com:54785/DSMCaptcha.html',
+    'http://anb.supremenewyork.com:54785/SupremenewyorkInvisibleCaptcha.html'
 ]
 
 post_urls = [
@@ -65,7 +71,8 @@ post_urls = [
     'http://anb.yeezysupply.com:54785/resyeezysupply',  # Unconfirmed
     'http://anb.palacesb.com:54785/respalacesb',
     'http://anb.consortium.co.uk:54785/resConsortium',
-    'http://anb.doverstreetmarket.com:54785/resDSM'
+    'http://anb.doverstreetmarket.com:54785/resDSM',
+    'http://anb.supremenewyork.com:54785/resSupremenewyork'
 ]
 
 
